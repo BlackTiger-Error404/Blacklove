@@ -28,6 +28,7 @@ PASS: 03037335114
 
 
 #Tiger
+
 pkg update
 
 pkg upgrade
