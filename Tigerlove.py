@@ -55,7 +55,7 @@ def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
 		sys.stdout.flush()
-		time.sleep(0.001)
+		time.sleep(0.07)
 
 #### colours ####
 B='\033[1;94m'
@@ -185,7 +185,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;96m[☆] \x1b[1;88mEnter Password  \x1b[1;96m👉 ")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev : 《BLACK_TIGER-ERROR404》
+            print "Logged in successfully as " + username #Dev :BLACK_TIGER-ERROR404
             loop = 'false'
         else:
             print "Wrong Password"
